@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:newsapp/inbox.dart';
 // import 'package:newsapp/outbox.dart';
 import 'package:newsapp/spam.dart';
-// import 'package:newsapp/forums.dart';
-// import 'package:newsapp/promos.dart';
+import 'package:newsapp/forums.dart';
+import 'package:newsapp/promos.dart';
 
 class ListDrawer extends StatelessWidget {
   @override
@@ -23,7 +23,7 @@ class ListDrawer extends StatelessWidget {
               icon: Icons.send,
               text: 'Outbox',
               onTap: () => {
-                    // Navigator.pushNamed(context, '/outbox'),
+                    Navigator.pushNamed(context, '/outbox'),
                   }),
           _drawerItem(
               icon: Icons.new_releases,
@@ -35,13 +35,13 @@ class ListDrawer extends StatelessWidget {
               icon: Icons.forum_sharp,
               text: 'Forums',
               onTap: () => {
-                    //Navigator.pushNamed(context, '/forums'),
+                    Navigator.pushNamed(context, '/forums'),
                   }),
           _drawerItem(
               icon: Icons.announcement,
               text: 'Promos',
               onTap: () => {
-                    //Navigator.pushNamed(context, '/promos'),
+                    Navigator.pushNamed(context, '/promos'),
                   }),
         ],
       ),

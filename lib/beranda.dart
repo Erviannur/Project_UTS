@@ -22,7 +22,7 @@ class Beranda extends StatelessWidget {
           children: [
             const Text(
               'Utama',
-              style: TextStyle(fontSize: 24),
+              style: TextStyle(fontSize: 20),
             ),
             const SizedBox(height: 5.0),
             Container(

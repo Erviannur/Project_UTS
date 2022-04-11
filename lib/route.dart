@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:newsapp/beranda.dart';
-
-// import 'package:newsapp/drawer.dart';
 import 'package:newsapp/inbox.dart';
 // import 'package:newsapp/outbox.dart';
 import 'package:newsapp/spam.dart';
-// import 'package:newsapp/forums.dart';
-// import 'package:newsapp/promos.dart';
+import 'package:newsapp/forums.dart';
+import 'package:newsapp/promos.dart';
 
 class RouteGenerator {
   static Route<dynamic> generateRoute(RouteSettings settings) {
@@ -16,13 +14,13 @@ class RouteGenerator {
       case '/inbox':
         return MaterialPageRoute(builder: (_) => Inboxs());
       case '/outbox':
-      //return MaterialPageRoute(builder: (_) => Outbox());
+        return MaterialPageRoute(builder: (_) => Outbox());
       case '/spam':
         return MaterialPageRoute(builder: (_) => Spam());
       case '/forums':
-      //return MaterialPageRoute(builder: (_) => Forums());
+        return MaterialPageRoute(builder: (_) => Forums());
       case '/promos':
-      //return MaterialPageRoute(builder: (_) => Promos());
+        return MaterialPageRoute(builder: (_) => Promos());
       default:
         return _errorRoute();
     }

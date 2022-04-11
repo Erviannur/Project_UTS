@@ -25,7 +25,7 @@ class Inboxs extends StatelessWidget {
           children: [
             const Text(
               'Today',
-              style: TextStyle(fontSize: 24),
+              style: TextStyle(fontSize: 20),
             ),
             const SizedBox(height: 5.0),
             Container(

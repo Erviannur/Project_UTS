@@ -7,7 +7,11 @@ class Forums extends StatelessWidget {
       appBar: AppBar(
         title: Text('Forums'),
       ),
-      body: Center(),
+      body: Center(
+        child: Text(
+          'Belum Ada Forum',
+        ),
+      ),
     );
   }
 }
