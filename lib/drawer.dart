@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:newsapp/inbox.dart';
-// import 'package:newsapp/outbox.dart';
+import 'package:newsapp/outbox.dart';
 import 'package:newsapp/spam.dart';
 import 'package:newsapp/forums.dart';
 import 'package:newsapp/promos.dart';
