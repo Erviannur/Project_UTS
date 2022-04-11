@@ -14,7 +14,7 @@ class RouteGenerator {
       case '/inbox':
         return MaterialPageRoute(builder: (_) => Inboxs());
       case '/outbox':
-        return MaterialPageRoute(builder: (_) => Outbox());
+      //return MaterialPageRoute(builder: (_) => Outbox());
       case '/spam':
         return MaterialPageRoute(builder: (_) => Spam());
       case '/forums':
